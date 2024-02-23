@@ -39,7 +39,7 @@ process KALLISTOBUSTOOLS_COUNT {
         $cdna \\
         $intron \\
         -x $technology \\
-        --workflow $technology \\
+        --workflow $workflow_mode \\
         $args \\
         -o ${prefix}.count \\
         -m ${memory}G \\
