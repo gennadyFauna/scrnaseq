@@ -39,7 +39,7 @@ input:
   - t2c:
       type: file
       description: kb ref's c2 unspliced_t2c file
-      pattern: "*.{introns_t2c.txt}"
+      pattern: "*.{intron_t2c.txt}"
   - workflow_mode:
       type: string
       description: String value defining workflow to use, can be one of "standard", "lamanno", "nucleus"
